@@ -15,6 +15,7 @@ body {
   background-size: 1920px;
   background-position: center top;
   background-repeat: no-repeat;
+  background-size: stretch;
 }
 
 li {
