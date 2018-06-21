@@ -6,10 +6,12 @@ h1 {
   opacity: 1;
   color: black;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background-image: url("file://F:/Pictures/Raf Pics/Vancouver-2667.jpg");
+  background-image: url(resources/Vancouver-2667.jpg);
   background-size: 1920px;
   background-position: center top;
   background-repeat: no-repeat;
@@ -82,6 +84,10 @@ li.dropdown {
 }
 
 .navbar {
-  margin: auto;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  margin: 0 auto;
+  display: table;
 
 }
