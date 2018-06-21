@@ -91,3 +91,27 @@ li.dropdown {
   display: table;
 
 }
+
+.social {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    margin: 0 auto;
+    display: table;
+    font-size: 200%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 200%;
+  font-style: normal;
+  font-family: courier new, monospace;
+  opacity: 1;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+i{
+  color: white;
+}
