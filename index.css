@@ -16,6 +16,9 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
 li {
@@ -106,10 +109,113 @@ h3 {
   font-family: courier new, monospace;
   opacity: 1;
   color: white;
-  margin: 20px;
+  margin: 22px;
   padding: 0px;
 }
 
 i{
   color: white;
+}
+
+h4 {
+  text-align: top;
+  font-size: 100%;
+  font-family: courier new, monospace;
+  opacity: 1;
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 230px;
+}
+
+.uwsimracing {
+  text-align: center;
+  font-size: 50%;
+  font-family: courier, monospace;
+  opacity: 1;
+  color: white;
+  position: absolute;
+  top: 130px;
+  right: 16px;
+}
+
+.axon {
+  text-align: center;
+  font-size: 50%;
+  font-family: courier, monospace;
+  opacity: 1;
+  color: white;
+  position: absolute;
+  top: 200px;
+  right: 16px;
+}
+
+.fyw {
+  text-align: center;
+  font-size: 50%;
+  font-family: courier, monospace;
+  opacity: 1;
+  color: white;
+  position: absolute;
+  top: 280px;
+  right: 16px; 
+}
+
+.kellyzhang {
+  text-align: center;
+  font-size: 50%;
+  font-family: courier, monospace;
+  opacity: 1;
+  color: white;
+  position: absolute;
+  top: 330px;
+  right: 16px;
+}
+
+.rafinsta {
+  text-align: center;
+  font-size: 50%;
+  font-family: courier, monospace;
+  opacity: 1;
+  color: white;
+  position: absolute;
+  top: 400px;
+  right: 16px;
+}
+
+.senleihomes {
+  text-align: center;
+  font-size: 50%;
+  font-family: courier, monospace;
+  opacity: 1;
+  color: white;
+  position: absolute;
+  top: 460px;
+  right: 16px;
+}
+
+.vrte {
+  text-align: center;
+  font-size: 50%;
+  font-family: courier, monospace;
+  opacity: 1;
+  color: white;
+  position: absolute;
+  top: 510px;
+  right: 16px;
+}
+
+a:link {
+  color:black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  opacity: 0.6;
+  font-size: 110%;
+  font-weight: bolder;
+  text-decoration: underline;
 }
