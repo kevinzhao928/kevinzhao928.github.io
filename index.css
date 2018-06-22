@@ -1,13 +1,14 @@
 h1 {
-  text-align: center;
-  font-size: 300%;
+  text-align: left;
+  font-size: 350%;
   font-style: normal;
   font-family: 'Orbitron', sans-serif;
   opacity: 1;
   color: black;
   font-weight: bold;
   margin: 0;
-  padding: 0;
+  padding-left: 40px;
+  padding-top: 5px;
 }
 
 body {
@@ -42,7 +43,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  text-align: center;
+  text-align: center top;
   font-family: 'Orbitron', sans-serif;
   font-weight: bolder;
   margin-left: auto;
@@ -95,6 +96,7 @@ li.dropdown {
   margin-right: auto;
   margin: 0 auto;
   display: table;
+  text-align: top;
 
 }
 
@@ -111,8 +113,8 @@ h3 {
   font-family: 'Orbitron', sans-serif;
   opacity: 1;
   color: white;
-  margin: 22px;
-  padding: 0px;
+  margin: 0px;
+  padding-left: 20px;
 }
 
 i{
