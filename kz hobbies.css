@@ -10,12 +10,18 @@ h1 {
     padding-left: 40px;
     padding-top: 5px;
   }
-li {
+
+  li {
     text-align: center;
     list-style: none;
     padding: 0;
     margin: 0;
     float: left;
+  }
+
+  body {
+    background-image: url(resources/christian-wiediger-696636-unsplash.jpg);
+    background-size: 1920px;
   }
   
   li a {
@@ -31,7 +37,7 @@ li {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    text-align: center;
+    text-align: center top;
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
     margin-left: auto;
@@ -64,25 +70,47 @@ li {
     z-index: 1;
   }
   
-    .dropdown-content a {
+  .dropdown-content a {
     color: black;
     display: block;
     text-align: left;
   }
   
   .dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
   }
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
   .navbar {
     margin-left: auto;
     display: block;
     margin-right: auto;
     margin: 0 auto;
     display: table;
-  
+    text-align: top;
+  }
+
+  .column {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  p {
+    text-align: center;
+  font-size: 200%;
+  font-family: 'Rajdhani', sans-serif;
+  opacity: 1;
+  color: white;
+  }
+
+  * {
+    box-sizing: border-box;
   }
