@@ -1,0 +1,116 @@
+h1 {
+    text-align: left;
+    font-size: 350%;
+    font-style: normal;
+    font-family: 'Orbitron', sans-serif;
+    opacity: 1;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 5px;
+  }
+
+  li {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+  }
+
+  body {
+    background-image: url(resources/christian-wiediger-696636-unsplash.jpg);
+    background-size: 1920px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center top;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  li a:hover,
+  .dropdown:hover .dropbtn {
+    opacity: 0.6;
+    font-size: 110%;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  
+  li a,
+  .dropbtn {
+    display: inline-block;
+    text-align: center;
+    color: black;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey; 
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .navbar {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    margin: 0 auto;
+    display: table;
+    text-align: top;
+  }
+
+  .column {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  p {
+    text-align: center;
+  font-size: 200%;
+  font-family: 'Rajdhani', sans-serif;
+  opacity: 1;
+  color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
