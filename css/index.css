@@ -287,8 +287,7 @@ html, body {
   transition: background 0.2s;
 }
 .no-touch .cd-primary-nav a:hover {
-  color: black;
-  background-color: white;
+  background-color: blue;
 }
 .cd-primary-nav .cd-label {
   color: #06446e;
