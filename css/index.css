@@ -444,3 +444,44 @@ shortlist {
   position: absolute;
   bottom: 10px;
 }
+
+.square_btn35{
+  display: inline-block;
+  position: absolute;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: red;
+  transition: .4s;
+  text-align: center;
+  font-size: 60px;
+}
+.square_btn35:hover {
+  color:white;
+}
+.square_btn35:before,.square_btn35:after{
+position: absolute;
+top: 0;
+content:'';
+width: 8px;
+height: 100%;
+display: inline-block;
+}
+.square_btn35:before{
+border-left: solid 1px white;
+border-top: solid 1px white;
+border-bottom: solid 1px white;
+left: 0;
+}
+.square_btn35:after{
+content: '';
+border-top: solid 1px white;
+border-right: solid 1px white;
+border-bottom: solid 1px white;
+right: 0;
+}
+
+.button {
+  position: absolute;
+  bottom: 420px;
+  left: 825px;
+}
