@@ -8,7 +8,7 @@ body {
   font-size: 100%;
   font-family: "Source Sans Pro", sans-serif;
   color: rgba(2, 23, 37, 0.7);
-  background: url("../img/ryan-yao-540515-unsplash.jpg") no-repeat center center;
+  background: url("../resources/ryan-yao-540515-unsplash.jpg") no-repeat center center;
   background-size: 1920px 1080px;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
