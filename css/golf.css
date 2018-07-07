@@ -183,3 +183,9 @@ a:hover {
 #menuToggle input:checked~ul {
   transform: none;
 }
+
+img {
+  position: absolute;
+  left: 1300px;
+  top: 800px;
+}
