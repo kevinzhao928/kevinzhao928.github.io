@@ -386,28 +386,6 @@ html, body {
     height: 700px;
   }
 }
-
-.cd-main-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  color: black;
-  font-size: 200%;
-  font-family: 'Rajdhani', sans-serif;
-}
-.cd-main-content p {
-  line-height: 1.6;
-  margin: 2em 0;
-  color: black;
-  text-align: center;
-}
-@media only screen and (min-width: 1170px) {
-  .cd-main-content p {
-    font-size: 20px;
-    font-size: 1.25rem;
-  }
-}
-
 i {
   color:white;
   font-size: 100%;
