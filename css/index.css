@@ -372,6 +372,8 @@ html, body {
   font-size: 1.25rem;
   font-weight: 300;
   text-align: center;
+  font-weight: bold;
+  font-style: italic;
 }
 @media only screen and (min-width: 768px) {
   .cd-intro h1 {
