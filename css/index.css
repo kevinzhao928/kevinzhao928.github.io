@@ -5109,7 +5109,7 @@ a.text-black:hover, a.text-black:focus {
   position: relative;
   height: 100vh;
   min-height: 700px;
-  background: url("../images/agency-landing/welcome-cover.jpg") no-repeat center center fixed;
+  background: url("../resources/ryan-yao-540515-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
   font-family: 'Orbitron', sans-serif;
 }
